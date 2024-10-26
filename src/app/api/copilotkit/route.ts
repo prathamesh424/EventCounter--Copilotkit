@@ -6,6 +6,7 @@ import {
   import { NextRequest } from 'next/server';
   import Groq from "groq-sdk";
 
+  
   const groq = new Groq({ apiKey: process.env.GROQ_API_KEY }) as any;
 //   const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
